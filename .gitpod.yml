@@ -4,7 +4,6 @@ tasks:
     init: |
       yarn --check-files --silent
       yarn lint:lock
-      yarn lint:ci
     command: yarn build:ci
 
 github:
@@ -36,9 +35,6 @@ vscode:
     - dbaeumer.vscode-eslint
     - eamodio.gitlens
     - EditorConfig.EditorConfig
-    - ms-vscode.vscode-typescript-next
-    - redhat.vscode-commons
-    - VisualStudioExptTeam.vscodeintellicode
     - wix.vscode-import-cost
     - xabikos.JavaScriptSnippets
     - yzhang.markdown-all-in-one
