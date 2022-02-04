@@ -1,4 +1,4 @@
-dist
+lib
 /*.js
 docs
 node_modules

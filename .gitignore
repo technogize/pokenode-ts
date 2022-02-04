@@ -103,6 +103,7 @@ Thumbs.db
 
 # Ignore built ts files
 dist/**/*
+lib/
 
 # Gatsby files
 .cache/
